@@ -44,11 +44,15 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Configure app
 
-Create MongoDB database and copy the connection URL. Also add username and password in the auths table.
+Create MongoDB database and copy the connection URL.
 Rename .env-example file to .env and edit it with your settings.
 
 ## Running the project
 
     $ npm run dev
-    
+
 Open http://localhost:3000/ in your browser.
+
+## Notes
+
+You need to add username and password in auths table, please check login controller code commenst to generate encrypted password.
